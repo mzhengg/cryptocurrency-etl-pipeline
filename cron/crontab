@@ -1,0 +1,3 @@
+SHELL=/bin/bash
+HOME=/
+*/5 * * * * WAREHOUSE_USER=admin WAREHOUSE_PASSWORD=admin WAREHOUSE_DB=finance WAREHOUSE_HOST=warehouse WAREHOUSE_PORT=5432  PYTHONPATH=/code/source /usr/local/bin/python /code/source/etl.py
